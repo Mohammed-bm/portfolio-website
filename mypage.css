@@ -1,0 +1,60 @@
+body{
+    background-color: aliceblue;
+    background-image: linear-gradient( steelblue , white );
+}
+
+li{
+    text-align: center;
+    display: inline;
+    padding: 8px;
+    list-style-type: none;
+    text-decoration-line: none;
+}
+
+li a{
+    padding: 0.5rem;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+ul{
+    padding: 1.5rem;
+    color: whitesmoke;
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+}
+
+li a:hover,
+li a:focus{
+    color: black;
+    background-color: whitesmoke;
+}
+
+.profile{
+    align-items: center;
+    padding: 20px;
+    width: 35%;
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid black;
+    border-width: medium;
+    gap: 30px;
+}
+
+.int{
+    color: whitesmoke;
+    font-size: 30px;
+    overflow: auto;
+}
+
+.profile img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    max-width: 300px;
+    border-radius: 50%;
+}
